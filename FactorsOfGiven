@@ -8,7 +8,7 @@ class FactorsOfGiven {
         int number = input.nextInt(); // Read the number from user input
         
         System.out.println("Factors of " + number + " are:");
-        
+         
         // Loop from 1 to number-1 to find factors
         for (int i = 1; i < number; i++) {
             if (number % i == 0) { // Check if 'i' is a factor of 'number'
