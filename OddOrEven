@@ -1,0 +1,29 @@
+import java.util.Scanner;  // Import Scanner class for user input
+
+class OddOrEven {  // Class definition
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);  // Create a Scanner object for user input
+
+        // Prompt the user to enter a number
+        System.out.println("Enter a number: ");
+        int number = input.nextInt();  // Read the number from user input
+        
+        // Display odd numbers from 1 to the entered number
+        System.out.println("Odd numbers are:");
+        for (int i = 1; i <= number; i++) {  // Loop from 1 to the given number
+            if (i % 2 != 0) {  // Check if the number is odd
+                System.out.println(i + " ");  // Print the odd number
+            }
+        }
+
+        // Display even numbers from 1 to the entered number
+        System.out.println("Even numbers are:");
+        for (int i = 1; i <= number; i++) {  // Loop from 1 to the given number
+            if (i % 2 == 0) {  // Check if the number is even
+                System.out.println(i + " ");  // Print the even number
+            }
+        }
+            
+        input.close();  // Close the Scanner object to free system resources
+    }
+}
