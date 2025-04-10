@@ -1,0 +1,23 @@
+import java.util.Scanner; // Import Scanner class to take user input
+
+class PowerOfANumber {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in); // Create Scanner object to read input
+        
+        System.out.println("Enter number:"); // Prompt the user to enter the base number
+        int number = input.nextInt(); // Read the base number from user input
+        
+        System.out.println("Enter power:"); // Prompt the user to enter the exponent
+        int power = input.nextInt(); // Read the exponent from user input
+        
+        int result = 1; // Initialize result variable to store the power calculation
+        
+        for (int i = 1; i <= power; i++) { // Loop to multiply the base number 'power' times
+            result = result * number; // Multiply result by the base number in each iteration
+        }
+        
+        System.out.println(number + " to the power " + power + " is " + result); // Display the calculated power
+        
+        input.close(); // Close the scanner to prevent resource leak
+    }
+}
