@@ -1,0 +1,56 @@
+import java.util.Scanner; // Importing Scanner class for user input
+
+class YoungestAndTallestFriend {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in); // Creating Scanner object to take input
+        
+        // Prompt user to enter ages and heights of Amar, Akbar, and Anthony
+        System.out.println("Enter age and height of Amar:");
+        int ageAmar = input.nextInt();
+        double heightAmar = input.nextDouble();
+        
+        System.out.println("Enter age and height of Akbar:");
+        int ageAkbar = input.nextInt();
+        double heightAkbar = input.nextDouble();
+        
+        System.out.println("Enter age and height of Anthony:");
+        int ageAnthony = input.nextInt();
+        double heightAnthony = input.nextDouble();
+
+        // Finding the youngest friend
+        String youngest;
+        int youngestAge;
+        
+        if (ageAmar < ageAkbar && ageAmar < ageAnthony) {
+            youngest = "Amar";
+            youngestAge = ageAmar;
+        } else if (ageAkbar < ageAmar && ageAkbar < ageAnthony) {
+            youngest = "Akbar";
+            youngestAge = ageAkbar;
+        } else {
+            youngest = "Anthony";
+            youngestAge = ageAnthony;
+        }
+
+        System.out.println("The youngest friend is " + youngest + " with age " + youngestAge + " years.");
+
+        // Finding the tallest friend
+        String tallest;
+        double tallestHeight;
+
+        if (heightAmar > heightAkbar && heightAmar > heightAnthony) {
+            tallest = "Amar";
+            tallestHeight = heightAmar;
+        } else if (heightAkbar > heightAmar && heightAkbar > heightAnthony) {
+            tallest = "Akbar";
+            tallestHeight = heightAkbar;
+        } else {
+            tallest = "Anthony";
+            tallestHeight = heightAnthony;
+        }
+
+        System.out.println("The tallest friend is " + tallest + " with height " + tallestHeight );
+        
+        input.close(); // Closing Scanner object to prevent resource leak
+    }
+}
