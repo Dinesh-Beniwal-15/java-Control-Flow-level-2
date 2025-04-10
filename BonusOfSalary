@@ -1,0 +1,25 @@
+import java.util.Scanner; // Importing Scanner class for user input
+
+class BonusOfSalary {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in); // Creating Scanner object to take input
+        
+        // Prompt user to enter salary
+        System.out.println("Enter salary:");
+        int salary = input.nextInt(); // Reading salary input from user
+        
+        // Prompt user to enter years of service
+        System.out.println("Enter year of service:");
+        int year = input.nextInt(); // Reading years of service input from user
+        
+        // Check if years of service is greater than 5 to determine bonus eligibility
+        if (year > 5) {
+            double bonus = (salary * 5.0) / 100; // Calculating 5% bonus of salary
+            System.out.println("Bonus amount is " + bonus); // Displaying bonus amount
+        } else {
+            System.out.println("Bonus amount is 0"); // No bonus if service is 5 years or less
+        }
+        
+        input.close(); // Closing Scanner object to prevent resource leak
+    }
+}
