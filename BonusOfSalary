@@ -5,7 +5,7 @@ class BonusOfSalary {
         Scanner input = new Scanner(System.in); // Creating Scanner object to take input 
          
         // Prompt user to enter salary
-        System.out.println("Enter salary:");
+        System.out.println("Enter  salary:");
         int salary = input.nextInt(); // Reading salary input from user
         
         // Prompt user to enter years of service
