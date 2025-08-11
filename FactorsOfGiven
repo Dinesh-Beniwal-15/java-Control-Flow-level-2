@@ -11,7 +11,7 @@ class FactorsOfGiven {
          
         // Loop from 1 to number-1 to find factors  
         for (int i = 1; i < number; i++) {
-            if (number % i == 0) { // Check if 'i' is a factor of 'number'
+            if (number % i == 0) { // Check if 'i' is a factor of 'number' 
                 System.out.println(i); // Print the factor
             }
         }
