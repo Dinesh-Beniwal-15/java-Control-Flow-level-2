@@ -14,7 +14,7 @@ class FactorsOfGiven {
             if (number % i == 0) { // Check if 'i' is a factor of 'number' 
                 System.out.println(i); // Print the factor
             }
-        }
+        } 
         
         input.close(); // Close the scanner to prevent resource leak
     }
