@@ -3,7 +3,7 @@ import java.util.Scanner; // Import Scanner class to take user input
 class FactorsOfGiven {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // Create Scanner object to read input
-        System.out.println("Enter a number to check factors:");
+        System.out.println("Enter a number to check factors:"); 
         
         int number = input.nextInt(); // Read the number from user input
         
