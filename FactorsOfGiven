@@ -4,7 +4,7 @@ class FactorsOfGiven {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // Create Scanner object to read input
         System.out.println("Enter a number to check factors:"); 
-        
+         
         int number = input.nextInt(); // Read the number from user input 
          
         System.out.println("Factors of " + number + " are:");  
