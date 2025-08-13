@@ -17,7 +17,7 @@ class FizzBuzz2 {
                 } else if (i % 3 == 0) {
                     System.out.println("Fizz");
                 } else if (i % 5 == 0) {
-                    System.out.println("Buzz");
+                    System.out.println("Buzz"); 
                 } else {
                     System.out.println(i); // Print the number if not a multiple of 3 or 5
                 }
