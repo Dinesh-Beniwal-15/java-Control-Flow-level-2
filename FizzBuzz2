@@ -7,7 +7,7 @@ class FizzBuzz2 {
         System.out.println("Enter a positive integer:"); // Prompt user to enter a number
         int number = input.nextInt(); // Reading the number input from user
         
-        // Check if the input is a positive integer
+        // Check if the input is a positive integer 
         if (number > 0) {
 			int i=0;
             // Loop from 0 to the entered number 
