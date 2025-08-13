@@ -8,7 +8,7 @@ class FizzBuzz2 {
         int number = input.nextInt(); // Reading the number input from user
         
         // Check if the input is a positive integer 
-        if (number > 0) {
+        if (number > 0) { 
 			int i=0;
             // Loop from 0 to the entered number 
             while ( i <= number) {
