@@ -4,7 +4,7 @@ class GreatestFactor {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // Create Scanner object to read input 
         System.out.println("Enter a number:");
-        int number = input.nextInt(); // Read the number from user input
+        int number = input.nextInt(); // Read the number from user input 
         System.out.println("Greatest Factor of " + number + " is :");
         
         
