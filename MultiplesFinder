@@ -4,7 +4,7 @@ class MultiplesFinder {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // Create Scanner object to read input
         
-        System.out.println("Enter a number:"); // Prompt the user to enter a number
+        System.out.println("Enter a number:"); // Prompt the user to enter a number 
         int number = input.nextInt(); // Read the number from user input  
          
         System.out.println("Multiples of " + number + " below 100 are:");  
