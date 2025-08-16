@@ -13,7 +13,7 @@ class MultiplesFinder {
             if (i%number == 0) { // Check if 'i' is a multiple of 'number'
                 System.out.println(i); // Print the multiple
             }
-        }
+        } 
         
         input.close(); // Close the scanner to prevent resource leak
     }
