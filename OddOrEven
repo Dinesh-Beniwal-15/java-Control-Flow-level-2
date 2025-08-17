@@ -6,7 +6,7 @@ class OddOrEven {  // Class definition
 
         // Prompt the user to enter a number
         System.out.println("Enter a number: ");
-        int number = input.nextInt();  // Read the number from user input
+        int number = input.nextInt();  // Read the number from user input 
         
         // Display odd numbers from 1 to the entered number
         System.out.println("Odd numbers are:"); 
