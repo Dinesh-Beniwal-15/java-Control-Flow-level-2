@@ -12,7 +12,7 @@ class OddOrEven {  // Class definition
         System.out.println("Odd numbers are:");
         for (int i = 1; i <= number; i++) {  // Loop from 1 to the given number
             if (i % 2 != 0) {  // Check if the number is odd
-                System.out.println(i + " ");  // Print the odd number
+                System.out.println(i + " ");  // Print the odd number 
             }
         }
 
