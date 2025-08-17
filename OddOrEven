@@ -9,7 +9,7 @@ class OddOrEven {  // Class definition
         int number = input.nextInt();  // Read the number from user input 
         
         // Display odd numbers from 1 to the entered number
-        System.out.println("Odd numbers are:"); 
+        System.out.println("Odd numbers are:");  
         for (int i = 1; i <= number; i++) {  // Loop from 1 to the given number
             if (i % 2 != 0) {  // Check if the number is odd 
                 System.out.println(i + " ");  // Print the odd number 
