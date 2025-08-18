@@ -9,7 +9,7 @@ class PowerOfANumber {
          
         System.out.println("Enter power:"); // Prompt the user to enter the exponent 
         int power = input.nextInt(); // Read the exponent from user input
-        
+         
         int result = 1; // Initialize result variable to store the power calculation
         
         for (int i = 1; i <= power; i++) { // Loop to multiply the base number 'power' times
