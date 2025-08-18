@@ -6,7 +6,7 @@ class PowerOfANumber {
         
         System.out.println("Enter number:"); // Prompt the user to enter the base number
         int number = input.nextInt(); // Read the base number from user input  
-        
+         
         System.out.println("Enter power:"); // Prompt the user to enter the exponent 
         int power = input.nextInt(); // Read the exponent from user input
         
