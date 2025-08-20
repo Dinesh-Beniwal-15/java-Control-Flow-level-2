@@ -4,7 +4,7 @@ class TableOfGivenNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // Creating Scanner object to take input  
          
-        System.out.println("Enter a number:"); // Prompt user to enter a number
+        System.out.println("Enter a number:"); // Prompt user to enter a number 
         int number = input.nextInt(); // Reading the number input from user
         
         // Loop to generate multiplication table from 6 to 9
