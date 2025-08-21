@@ -9,7 +9,7 @@ class YoungestAndTallestFriend {
         int ageAmar = input.nextInt(); 
         double heightAmar = input.nextDouble(); 
         
-        System.out.println("Enter age and height of Akbar:"); 
+        System.out.println("Enter age and height of Akbar:");  
         int ageAkbar = input.nextInt();
         double heightAkbar = input.nextDouble();
         
