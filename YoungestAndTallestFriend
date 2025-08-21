@@ -7,7 +7,7 @@ class YoungestAndTallestFriend {
         // Prompt user to enter ages and heights of Amar, Akbar, and Anthony
         System.out.println("Enter age and height of Amar:");
         int ageAmar = input.nextInt(); 
-        double heightAmar = input.nextDouble(); 
+        double heightAmar = input.nextDouble();  
          
         System.out.println("Enter age and height of Akbar:");  
         int ageAkbar = input.nextInt();
