@@ -22,7 +22,7 @@ class FizzBuzz {
                 }
             }
         } else {
-            System.out.println("Please enter a positive integer."); // Handle invalid input
+            System.out.println("Please enter a positive integer."); // Handle invalid input 
         }
         
         input.close(); // Closing Scanner object to prevent resource leak
