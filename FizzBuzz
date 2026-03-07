@@ -1,4 +1,4 @@
-import java.util.Scanner; // Importing Scanner class for user input
+import java.util.Scanner; // Importing Scanner class for user input 
 
 class FizzBuzz {
     public static void main(String[] args) {  
