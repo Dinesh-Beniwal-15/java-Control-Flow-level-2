@@ -12,7 +12,7 @@ class BonusOfSalary {
         System.out.println("Enter year of service:");
         int year = input.nextInt(); // Reading years of service input from user
         
-        // Check if years of service is greater than 5 to determine bonus eligibility
+        // Check if years of service is greater than 5 to determine bonus eligibility 
         if (year > 5) {
             double bonus = (salary * 5.0) / 100; // Calculating 5% bonus of salary
             System.out.println("Bonus amount is " + bonus); // Displaying bonus amount
