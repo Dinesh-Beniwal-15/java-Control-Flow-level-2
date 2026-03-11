@@ -5,7 +5,7 @@ class YoungestAndTallestFriend {
         Scanner input = new Scanner(System.in); // Creating Scanner object to take input
         
         // Prompt user to enter ages and heights of Amar, Akbar, and Anthony
-        System.out.println("Enter age and height of Amar:");
+        System.out.println("Enter age and height of Amar:"); 
         int ageAmar = input.nextInt();  
         double heightAmar = input.nextDouble();   
          
