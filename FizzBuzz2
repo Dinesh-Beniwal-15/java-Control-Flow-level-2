@@ -5,7 +5,7 @@ class FizzBuzz2 {
         Scanner input = new Scanner(System.in); // Creating Scanner object to take input 
         
         System.out.println("Enter a positive integer:"); // Prompt user to enter a number
-        int number = input.nextInt(); // Reading the number input from user
+        int number = input.nextInt(); // Reading the number input from user 
          
         // Check if the input is a positive integer 
         if (number > 0) {  
