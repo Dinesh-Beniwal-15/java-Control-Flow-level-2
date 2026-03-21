@@ -5,7 +5,7 @@ class OddOrEven {  // Class definition
         Scanner input = new Scanner(System.in);  // Create a Scanner object for user input
  
         // Prompt the user to enter a number
-        System.out.println("Enter a number: ");
+        System.out.println("Enter a number: "); 
         int number = input.nextInt();  // Read the number from user input 
          
         // Display odd numbers from 1 to the entered number
