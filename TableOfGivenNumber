@@ -9,7 +9,7 @@ class TableOfGivenNumber {
         
         // Loop to generate multiplication table from 6 to 9
         for (int i = 6; i <= 9; i++) {
-            System.out.println(number + " x " + i + " = " + (number * i)); // Printing multiplication result
+            System.out.println(number + " x " + i + " = " + (number * i)); // Printing multiplication result 
         }
         
         input.close(); // Closing Scanner object to prevent resource leak
