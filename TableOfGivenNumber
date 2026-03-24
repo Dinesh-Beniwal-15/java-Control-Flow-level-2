@@ -13,5 +13,5 @@ class TableOfGivenNumber {
         }
         
         input.close(); // Closing Scanner object to prevent resource leak
-    }
+    } 
 }
