@@ -7,8 +7,8 @@ class TableOfGivenNumber {
         System.out.println("Enter a number:"); // Prompt user to enter a number   
         int number = input.nextInt(); // Reading the number input from user
         
-        // Loop to generate multiplication table from 6 to 9
-        for (int i = 6; i <= 9; i++) {
+        // Loop to generate multiplication table from 1 to 10
+        for (int i = 1; i <= 10; i++) {
             System.out.println(number + " x " + i + " = " + (number * i)); // Printing multiplication result 
         }
         
